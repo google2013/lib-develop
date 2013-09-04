@@ -1,7 +1,7 @@
 {
   "name": "myqee/develop",
   "description": "MyQEE develop library for Composer",
-  "keywords": ["MyQEE", "library"],
+  "keywords": ["MyQEE", "Library"],
   "homepage": "http://www.myqee.com/",
   "type": "myqee-library",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "myqee/installer": "~3.0"
+    "myqee/installer": "~3.*"
   },
   "autoload": {
     "psr-0": {"MyQEE\\Develop": "src/"}
